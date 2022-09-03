@@ -1,0 +1,42 @@
+body{
+ background-image: url(ny.jpg);
+ background-size: 100%;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2.0em;
+  
+}
+
+
+
+.container{
+    position: absolute;
+    right: 0;
+    left:0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 80%;   
+    
+}
+
+.box-1{
+
+    height: 40%;
+    width: 50%;
+    margin: auto;
+   background-image: url(ny.jpg);
+ background-repeat: no-repeat;
+    text-align: center;
+
+    color: black;
+    border-right:5px black solid;
+    border-left:5px black solid;
+    border-top:5px black solid;
+    border-bottom:5px black solid;
+}
